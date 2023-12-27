@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/duongtq3/fuzz4bounty/master/fakeLogin.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/duongtq3/fuzz4bounty/master/fakeLogin.yaml",
+            "name": "Test"
+        }
+    ]
+}
