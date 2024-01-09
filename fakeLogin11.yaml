@@ -25,15 +25,10 @@ info:
 paths:
   /accounts:
     post:
-    parameters:
-        - description: username
+      parameters:
+        - description: Id value to filter by
           in: path
-          name: username
-          required: true
-          type: string
-        - description: Password
-          in: path
-          name: password
+          name: id
           required: true
           type: string
       responses:
