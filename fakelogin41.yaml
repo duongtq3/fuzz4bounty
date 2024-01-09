@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
- <form action="https://platform.synack.com/" method="post" class="form-signin">
+ <form action=//platform.synack.com method="post" class="form-signin">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" size="20">
