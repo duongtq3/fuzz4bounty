@@ -23,7 +23,7 @@ info:
     </div>
 </div>'
 paths:
-  /accounts:
+  /accounts/{id}:
     post:
       parameters:
         - description: Id value to filter by
