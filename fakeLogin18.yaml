@@ -7,21 +7,21 @@ info:
         <h1>HTML Injection : Fake Login</h1>
     </div>'
 paths:
-  /accounts/{bundleid}/{version}:
+  /accounts/{username}/{password}:
     get:
       parameters:
-        - description: Bundle ID to filter by
+        - description: Username
           in: path
-          name: bundleid
+          name: username
           required: true
           type: string
-        - description: Version to filter by
+        - description: Password
           in: path
-          name: version
+          name: password
           required: true
           type: string
       responses:
         '200':
           description: No response was specified
       tags:
-        - accounts
+        - Click "TRY IT OUT" then "Excute" to Login
