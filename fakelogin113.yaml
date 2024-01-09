@@ -3,9 +3,13 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
-<form action=http://google.com><input type="submit">Click Me</input><select name=xss><option
- <a href="//attacker.com">here</a><p>Regards</p><p>Invoiced Admin</p>
- <a href="//attacker.com">here</a><p>Regards</p><p>Invoiced Admin</p> '
+<form action="/action_page.php" method="get" target="_blank">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form> '
 paths:
   /accounts:
     get:
