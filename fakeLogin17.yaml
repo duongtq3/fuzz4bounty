@@ -20,3 +20,8 @@ paths:
           name: version
           required: true
           type: string
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
