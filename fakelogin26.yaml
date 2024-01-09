@@ -1,0 +1,23 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page
+  description: '<form action="https://example.com" method="post">
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+  </div>
+  <div>
+    <input type="submit" value="Login">
+  </div>
+</form>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successfula
