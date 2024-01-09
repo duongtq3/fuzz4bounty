@@ -15,4 +15,4 @@ paths:
     post:
       responses:
         '200':
-          description: Login successful
+          description: Login successfula
