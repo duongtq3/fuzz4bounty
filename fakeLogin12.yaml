@@ -23,14 +23,18 @@ info:
     </div>
 </div>'
 paths:
-  /accounts/{id}:
+  /accounts:
     post:
-      parameters:
-        - description: Id value to filter by
-          in: path
-          name: id
-          required: true
-          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: string
+                  description: Id value to filter by
       responses:
         '200':
           description: Login successful
