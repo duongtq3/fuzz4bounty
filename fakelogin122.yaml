@@ -3,8 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
-  <iframe src="//subdomain1.portswigger-labs.net/bypassing-csp-with-dangling-iframes/target.php?email=%22><iframe name=%27" onload="cspBypass(this.contentWindow)"></iframe>
-<br><a href=//attacker.com><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"></a>'
+  <p style="text-align:center"><iframe src="//subdomain1.portswigger-labs.net/bypassing-csp-with-dangling-iframes/target.php" width="700" height="800" frameBorder="0"></iframe><p style="color:white">'
 paths:
   /accounts:
     get:
