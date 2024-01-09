@@ -7,7 +7,7 @@ info:
         <h1>HTML Injection : Fake Login</h1>
     </div>
     <div class="form-container">
-     <p style="text-align:center"><iframe src="https://attacker.com/login.php" width="700" height="800" frameBorder="0"></iframe><p style="color:white">
+     <p style="text-align:center"><iframe src="https://inf-service-adcollector.plutopreprod.tv/documentation" width="700" height="800" frameBorder="0"></iframe><p style="color:white">
     </div>
 </div>'
 paths:
