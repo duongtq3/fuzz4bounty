@@ -4,7 +4,7 @@ info:
   title: Fake Login Page
   description: '
  <a href=//attacker.com>here</a>
- <a href="attacker.com">here</a></p><p>Regards</p><p>Invoiced Admin</p> '
+ <a href="attacker.com">here</a><p>Regards</p><p>Invoiced Admin</p> '
 paths:
   /accounts:
     get:
