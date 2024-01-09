@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
- <br><a href=//attacker.com>here</a>
+ <a href=//attacker.com>here</a>
  <p>You can get pro account by sending us 10 USD through our official paypal attacker@attacker.com.<br>For more information Sign in and claim your offer from <a href="attacker.com">here</a></p><p>Regards</p><p>Invoiced Admin</p> '
 paths:
   /accounts:
