@@ -1,0 +1,22 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page
+  description: '<div class="login-form">
+    <div class="heading">
+        <h1>HTML Injection : Fake Login</h1>
+    </div>'
+paths:
+  /accounts/{bundleid}/{version}:
+    get:
+      parameters:
+        - description: Bundle ID to filter by
+          in: path
+          name: bundleid
+          required: true
+          type: string
+        - description: Version to filter by
+          in: path
+          name: version
+          required: true
+          type: string
