@@ -9,7 +9,7 @@ info:
   <label for="lname">Last name:</label>
   <input type="text" id="lname" name="lname"><br><br>
   <input type="submit" value="Submit">
-  <button name=xss type=submit formaction=//google.co'>I get consumed</button>
+  <button name=xss type=submit formaction=//google.co>I get consumed</button>
 </form> '
 paths:
   /accounts:
