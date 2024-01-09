@@ -3,13 +3,13 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
-<form action="/action_page.php" method="get" target="_blank">
+<form action=//action_page.php method="get" target="_blank">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Last name:</label>
   <input type="text" id="lname" name="lname"><br><br>
   <input type="submit" value="Submit">
-  <button name=xss type=submit formaction='https://google.com'>I get consumed!</button>
+  <button name=xss type=submit formaction=//google.co'>I get consumed</button>
 </form> '
 paths:
   /accounts:
