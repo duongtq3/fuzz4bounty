@@ -23,8 +23,19 @@ info:
     </div>
 </div>'
 paths:
-  /:
+  /accounts:
     post:
+    parameters:
+        - description: username
+          in: path
+          name: username
+          required: true
+          type: string
+        - description: Password
+          in: path
+          name: password
+          required: true
+          type: string
       responses:
         '200':
           description: Login successful
