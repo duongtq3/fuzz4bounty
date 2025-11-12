@@ -3,8 +3,8 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
-  <p>You can get pro account by sending us 10 USD through our official paypal attacker@attacker.com.<br>For more information Sign in and claim your offer from
-<br><a href=//attacker.com><img src=//freepngimg.com/thumb/click_here/1-2-click-here-png-clipart-thumb.png></a>'
+  <p>Test.<br>For more information Sign in and claim your offer from
+<br><a href=javascript:alert(1)><img src=//freepngimg.com/thumb/click_here/1-2-click-here-png-clipart-thumb.png></a>'
 paths:
   /accounts:
     get:
