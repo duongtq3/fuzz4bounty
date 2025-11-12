@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page
   description: '
-  <p>Test.<br>For more information Sign in and claim your offer from
+  <p><s onclick=alert(1)>Test</s>.<br>For more information Sign in and claim your offer from
 <br><a href=javascript:alert(1)><img src=//freepngimg.com/thumb/click_here/1-2-click-here-png-clipart-thumb.png></a>'
 paths:
   /accounts:
