@@ -2,8 +2,8 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <s onclick=alert(1)>abc1234</s>
-    <img onerror=alert(document.domain) src=1>
+    <s onclick=alert(1)>abc1234test</s>
+    <iframe onload=alert(1)></iframe>
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
 
   version: production
@@ -31,8 +31,8 @@ paths:
       parameters:
         - description: |
             <s>abc123</s>
-            <img onerror=alert(document.domain) src=1>
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
+            <iframe onload=alert(1)></iframe>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><iframe onload=alert(1)></iframe>"></form>
 
           format: int64
           in: path
